@@ -15,14 +15,18 @@ def landing_page():
 @app.route("/user_page")
 def user_page():
     return render_template('user_page.html')
-
+    
+@app.route("/profile")
+def profile():
+    return render_template('user_profile.html', username="Poohbear")
+    
 @app.route("/settings")
 def settings():
     return render_template('construction.html')
 
 @app.route("/friends")
 def friends():
-    return render_template('construction.html')
+    return render_template('user_friends.html')
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')

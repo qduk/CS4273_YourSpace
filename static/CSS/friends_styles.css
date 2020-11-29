@@ -1,0 +1,13 @@
+div {
+  width: 50%;
+  height: 10%;
+  border-radius: 10px;
+}
+
+body {
+  background: radial-gradient(#e66465, #9198e5);
+}
+
+h1 {
+  text-align: center;
+}

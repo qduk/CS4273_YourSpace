@@ -1,0 +1,19 @@
+
+  body {
+    background: radial-gradient(#e66465, #9198e5);
+  }
+
+  div {
+    background-color: #b2deec;
+    width: 49%;
+    height: 10%;
+    border-radius: 10px;
+  }
+
+  h1 {
+    text-indent: 1%;
+  }
+
+  tr {
+    height: 10px;
+  }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{username}} ✞ Friends</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='CSS/friends_styles.css')}}">
+
+</head>
+
+<body>
+  <h1>Friends of Pooh</h1>
+  <div style="float:left;">
+
+    <table cellspacing="30">
+      <tr>
+        <td><img src="{{ url_for('static', filename='imgs/pooh_images/IMG_tigger.jpeg')}}" height="250px"/></td>
+        <td><strong>Tigger</strong></td>
+      </tr>
+      <tr>
+        <td><img src="{{ url_for('static', filename='imgs/pooh_images/IMG_christopher robin.jpeg')}}"  height="250px" /></td>
+        <td><strong>Christopher Robin</strong></td>
+      </tr>
+      <tr>
+        <td><img src="{{ url_for('static', filename='imgs/pooh_images/IMG_eeyore.jpeg')}}" height="250px" /></td>
+        <td><strong>Eeyore</strong></td>
+      </tr>
+      <tr>
+        <td><img src="{{ url_for('static', filename='imgs/pooh_images/IMG_piglet.jpeg')}}" height="250px" /></td>
+        <td><strong>Piglet</strong></td>
+      </tr>
+      <tr>
+        <td><img src="{{ url_for('static', filename='imgs/pooh_images/IMG_pope.jpeg')}}" height="200px" width="300px"</td>
+        <td><strong>Pope Francis</strong></td>
+        </tr>
+    </table>
+  </div>
+
+  <div style="float:right;">
+    <table cellspacing="30">
+      <tr>
+        <td><img src="{{ url_for('static', filename='imgs/pooh_images/IMG_ewok.jpeg')}}" height="300px" /></td>
+        <td><strong>Wicket</strong></td>
+      </tr>
+      <tr>
+        <td><img src="{{ url_for('static', filename='imgs/pooh_images/IMG_captainkirk.jpeg')}}" height="180px"/></td>
+        <td><strong>Captain Kirk</strong></td>
+      </tr>
+      <tr>
+        <td><img src="{{ url_for('static', filename='imgs/pooh_images/IMG_vader.jpeg')}}" height="300px"</td>
+        <td><strong>Darth Vader</strong></td>
+      </tr>
+      <tr>
+        <td><img src="{{ url_for('static', filename='imgs/pooh_images/IMG_spock.jpeg')}}" height="200px"</td>
+        <td><strong>Spock</strong></td>
+      </tr>
+      <tr>
+        <td><img src="{{ url_for('static', filename='imgs/pooh_images/IMG_indianajones.jpeg')}}" height="200px" width="350px"</td>
+        <td><strong>Indiana Jones</strong></td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
